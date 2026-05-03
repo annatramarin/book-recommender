@@ -81,3 +81,6 @@ for _, row in results.iterrows():
 - For faster embedding generation, enable GPU in your environment (e.g. Google Colab: Runtime → Change runtime type → T4 GPU)
 - The model `all-MiniLM-L6-v2` runs fine on CPU for small subsets (~500 books) but a GPU is recommended for the full dataset
  
+
+## Coming soon
+Develop the same project with the [CMU Book Summary Dataset](https://www.kaggle.com/datasets/ymaricar/cmu-book-summary-dataset), which is more a complete dataset with authors, dates, etc.
