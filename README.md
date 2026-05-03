@@ -3,7 +3,7 @@ A semantic book recommendation system built with sentence-transformers and cosin
 
 ## How It Works
  
-1. Book descriptions from a Goodreads dataset are converted into vector embeddings using a pretrained sentence-transformer model
+1. Book descriptions from a Goodreads dataset are converted into vector embeddings using a pretrained [sentence-transformer](https://www.sbert.net/) model
 2. When a user inputs a natural language query (e.g. *"a dark mystery set in Victorian London"*), it is embedded into the same vector space
 3. Cosine similarity is computed between the query vector and all book vectors
 4. The closest matching books are returned ranked by similarity
