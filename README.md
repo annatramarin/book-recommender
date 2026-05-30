@@ -73,7 +73,7 @@ for _, row in results.iterrows():
  
 ## Dataset
  
-[booksouls/goodreads-book-descriptions](https://huggingface.co/datasets/booksouls/goodreads-book-descriptions) via HuggingFace — contains book titles and descriptions sourced from Goodreads.
+The dataset used is [booksouls/goodreads-book-descriptions](https://huggingface.co/datasets/booksouls/goodreads-book-descriptions) via HuggingFace, which contains book titles and descriptions sourced from Goodreads.
  
 ## Notes
  
